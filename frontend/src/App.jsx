@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://to-do-list-backend-rust.vercel.app/api";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
